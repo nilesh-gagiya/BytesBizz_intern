@@ -1,0 +1,126 @@
+.booking-container {
+  text-align: center;
+}
+
+.booking-header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #444;
+}
+
+.booking-footer {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+.bookings-container {
+  text-align: center;
+}
+
+.bookings-header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.bookings-table th, .bookings-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.bookings-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.bookings-footer {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
