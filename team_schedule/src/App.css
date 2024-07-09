@@ -1,0 +1,136 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #f5f5f5;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-logo {
+  
+  text-align: center;
+  background: #ffffff;
+  color: #4d4949;
+}
+
+.sidebar-search {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-search-icon {
+  margin-right: 10px;
+  color: #666;
+}
+
+.sidebar-search input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.sidebar-nav, .sidebar-footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li, .sidebar-footer-nav li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-nav li a, .sidebar-footer-nav li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sidebar-nav li a svg, .sidebar-footer-nav li a svg {
+  margin-right: 10px;
+  color: #666;
+}
+
+.sidebar-nav li a:hover, .sidebar-footer-nav li a:hover {
+  background: #f0f0f0;
+}
+
+.sidebar-footer {
+  padding: 20px;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar input[type="search"] {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.modal input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modal button:last-child {
+  background: #ddd;
+  color: #333;
+}
